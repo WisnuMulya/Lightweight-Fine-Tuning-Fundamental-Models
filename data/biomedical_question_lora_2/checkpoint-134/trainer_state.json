@@ -1,0 +1,30 @@
+{
+  "best_metric": 1.047271490097046,
+  "best_model_checkpoint": "./data/biomedical_question_lora_2/checkpoint-134",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 134,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.525,
+      "eval_loss": 1.047271490097046,
+      "eval_runtime": 22.5452,
+      "eval_samples_per_second": 8.871,
+      "eval_steps_per_second": 1.508,
+      "step": 134
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 536,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 4,
+  "save_steps": 500,
+  "total_flos": 420626615500800.0,
+  "train_batch_size": 6,
+  "trial_name": null,
+  "trial_params": null
+}

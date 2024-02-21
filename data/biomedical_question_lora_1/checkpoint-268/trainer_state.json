@@ -1,0 +1,39 @@
+{
+  "best_metric": 1.0920060873031616,
+  "best_model_checkpoint": "./data/biomedical_question_lora_1/checkpoint-268",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 268,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.52,
+      "eval_loss": 1.1386702060699463,
+      "eval_runtime": 22.5778,
+      "eval_samples_per_second": 8.858,
+      "eval_steps_per_second": 1.506,
+      "step": 134
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.525,
+      "eval_loss": 1.0920060873031616,
+      "eval_runtime": 22.5533,
+      "eval_samples_per_second": 8.868,
+      "eval_steps_per_second": 1.508,
+      "step": 268
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 536,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 4,
+  "save_steps": 500,
+  "total_flos": 846326661120000.0,
+  "train_batch_size": 6,
+  "trial_name": null,
+  "trial_params": null
+}
